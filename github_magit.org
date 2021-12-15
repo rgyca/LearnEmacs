@@ -1,7 +1,7 @@
-#+TITLE:     
+#+TITLE:   Magit=github=git
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2021-12-15 22:44:33 +0800
+#+DATE:      Last Modified: 2021-12-15 23:50:11 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
