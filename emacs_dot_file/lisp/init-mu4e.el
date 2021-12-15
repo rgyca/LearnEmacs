@@ -27,7 +27,7 @@
 ;; list of your email adresses:
 (setq mu4e-user-mail-address-list '(;"dummy@icloud.com"
                                     ;;"dummy@gmail.com"
-                                    "zhoujhwd@icloud.com"))
+                                    "rgyca@icloud.com"))
 
 ;; check your ~/.maildir to see how the subdirectories are called
 ;; for the generic imap account:
@@ -64,16 +64,16 @@
       `(,(make-mu4e-context
           :name "icloud"
           :enter-func
-          (lambda () (mu4e-message "Enter zhoujhwd@icloud.com context"))
+          (lambda () (mu4e-message "Enter rgyca@icloud.com context"))
           :leave-func
-          (lambda () (mu4e-message "Leave zhoujhwd@icloud.com context"))
+          (lambda () (mu4e-message "Leave rgyca@icloud.com context"))
           :match-func
           (lambda (msg)
             (when msg
               (mu4e-message-contact-field-matches msg
-                                                  :to "zhoujhwd@icloud.com")))
-          :vars '((user-mail-address . "zhoujhwd@icloud.com" )
-                  (user-full-name . "Zhoujhwd")
+                                                  :to "rgyca@icloud.com")))
+          :vars '((user-mail-address . "rgyca@icloud.com" )
+                  (user-full-name . "Rgyca")
                   (mu4e-drafts-folder . "/icloud/Drafts")
                   (mu4e-refile-folder . "/icloud/Archive")
                   (mu4e-sent-folder . "/icloud/Sent_Messages")
@@ -143,7 +143,7 @@
               (cond
                ;; ((string-match "dummy@icloud.com" from) "icloud")
                ;; ((string-match "dummy@gmail.com" from) "gmail")
-               ((string-match "zhoujhwd@icloud.com" from) "icloud"))))
+               ((string-match "rgyca@icloud.com" from) "icloud"))))
           (setq message-sendmail-extra-arguments (list '"-a" account))))))
 
 (add-hook 'message-send-mail-hook 'timu/set-msmtp-account)

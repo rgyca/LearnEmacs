@@ -38,11 +38,16 @@
 
 ## eaf
 
-在mac上eaf会出现python错误，退出现象，不知道什么原因
+	在mac上eaf会出现python错误，退出现象，不知道什么原因
 	
 ## org-roam
 
 
-在windows下，不能使用，需要Emacsql等，需要安装mingw。
+	在windows下，不能使用，需要Emacsql等，需要安装mingw。
+	
+	但是在MacOS下好使。
 
-但是在MacOS下好使。
+
+## mu4e
+
+	邮件没有配置好，现在不用
