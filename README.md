@@ -16,7 +16,6 @@
 
 ## 基本操作
 
-
 打开新建  文件 C-x C-f
 关闭   C-x C-c
 保存   C-x C-s
@@ -28,3 +27,8 @@
 撤销 c-x u
 释放操作 c-g
 
+## eaf
+	在mac上eaf会出现python错误，退出现象，不知道什么原因
+	
+## roam
+	在windows下，不能使用，需要Emacsql等，需要安装mingw。
