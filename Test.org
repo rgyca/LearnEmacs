@@ -1,0 +1,26 @@
+#+TITLE:     
+#+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
+#+EMAIL:     zhoujhwd@163.com
+#+DATE:      Last Modified: 2021-12-15 17:42:20 +0800
+#+LATEX_CMD: xelatex
+#+DESCRIPTION:
+#+LaTeX_CLASS:  article
+#+KEYWORDS: 
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   xelateX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+STARTUP: overview
+#+STARTUP: hidestars showall
+
+* test for github
+
+  修改
+
+* 另一个
+
+修改2
