@@ -28,7 +28,9 @@
 释放操作 c-g
 
 ## eaf
-	在mac上eaf会出现python错误，退出现象，不知道什么原因
+
+在mac上eaf会出现python错误，退出现象，不知道什么原因
 	
 ## org-roam
-	在windows下，不能使用，需要Emacsql等，需要安装mingw。
+
+在windows下，不能使用，需要Emacsql等，需要安装mingw。
