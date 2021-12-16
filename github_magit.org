@@ -1,7 +1,7 @@
 #+TITLE:   Magit(Windows&MacOs)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2021-12-16 14:28:55 +0800
+#+DATE:      Last Modified: 2021-12-16 14:31:45 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -18,6 +18,7 @@
 #+STARTUP: hidestars showall
 
 * Introducton
+  
   This document was written using Org-mode. It works in github.
   
 * Add file
