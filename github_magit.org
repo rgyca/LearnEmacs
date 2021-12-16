@@ -1,7 +1,7 @@
 #+TITLE:   Magit(Windows&MacOs)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2021-12-16 14:31:45 +0800
+#+DATE:      Last Modified: 2021-12-16 14:54:00 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -20,7 +20,8 @@
 * Introducton
   
   This document was written using Org-mode. It works in github.
-  
+
+  I test whether it works from windows.
 * Add file
   C-x g  => s
 
