@@ -1,7 +1,7 @@
-#+TITLE:   Magit=github=git
+#+TITLE:   Magit(Windows&MacOs)(Test)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2021-12-16 09:28:06 +0800
+#+DATE:      Last Modified: 2021-12-16 15:03:00 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -17,9 +17,10 @@
 #+STARTUP: overview
 #+STARTUP: hidestars showall
 
-* Intro
-  This document was written using Org-mode. It works in github.
+* Introducton
   
+  This document was written using Org-mode. It works in github.
+
 * Add file
   C-x g  => s
 
