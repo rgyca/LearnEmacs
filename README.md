@@ -1,10 +1,10 @@
 # emacs 安装过程
 
-这是一个安装在mac系统上的emacs，移植到windows上，在配置时，没有分情况考虑，所以做了相应的修改。
+	这是一个安装在mac系统上的emacs，移植到windows上，在配置时，没有分情况考虑，所以做了相应的修改。
 
 ## 把文件解压到D:盘中
 
-保证可以看到D:\Work_Space\emacs
+	保证可以看到D:\Work_Space\emacs
 
 ## 设置跟目录，过程
 
@@ -12,7 +12,7 @@
 
 ## 回到D:盘 Work_Space 目录下
 
-点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置（需要联网）
+	点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置（需要联网）
 
 ## 基本操作
 
@@ -38,9 +38,9 @@
 
 ========================================
 
-缓冲区开头   M-< 
-
-缓冲区结尾   M-> 
+	缓冲区开头   M-< 
+	
+	缓冲区结尾   M-> 
 
 
 ## eaf
@@ -51,10 +51,10 @@
 
 
 	在windows下，不能使用，需要Emacsql等，需要安装mingw。
-	
+
 	但是在MacOS下好使。
 
 
 ## mu4e
 
-	邮件没有配置好，现在不用
+邮件没有配置好，现在不用
