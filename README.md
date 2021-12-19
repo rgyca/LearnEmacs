@@ -46,6 +46,14 @@
 Check box [/]
 - [ ] check 1
 - [ ] check 2
+
+Itermize1
+ - 项目1
+ - 项目2
+ 
+Itermize2
+ + 项目1
+ + 项目2
 ## Org Agenda基本操作
 C-c a 查看日程安排
 
