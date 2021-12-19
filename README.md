@@ -38,9 +38,17 @@
 
 ========================================
 
-	缓冲区开头   M-< 
-	
-	缓冲区结尾   M-> 
+缓冲区开头   M-< 
+缓冲区结尾   M-> 
+## Org 标识
+定格星号（*）加空格标识标题，一个星号标识一级标题，两个星号标识二级标题，以此类推。
+
+Check box [/]
+- [ ] check 1
+- [ ] check 2
+## Org Agenda基本操作
+C-c a 查看日程安排
+
 ## 书签设置
 
 C-x r m(设置) 
@@ -50,14 +58,13 @@ C-x r l（列表）
 
 ## eaf
 
-	在mac上eaf会出现python错误，退出现象，不知道什么原因
+在mac上eaf会出现python错误，退出现象，不知道什么原因
 	
 ## org-roam
 
+在windows下，不能使用，需要Emacsql等，需要安装mingw。
 
-	在windows下，不能使用，需要Emacsql等，需要安装mingw。
-
-	但是在MacOS下好使。
+但是在MacOS下好使。
 
 
 ## mu4e
