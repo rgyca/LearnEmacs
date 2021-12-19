@@ -43,19 +43,21 @@
 ## Org 标识
 定格星号（*）加空格标识标题，一个星号标识一级标题，两个星号标识二级标题，以此类推。
 
-Check box [/]
-- [ ] check 1
-- [ ] check 2
+	Check box [/]
+		- [ ] check 1
+		- [ ] check 2
 
-Itermize1
- - 项目1
- - 项目2
+	Itermize1
+		- 项目1
+		- 项目2
  
-Itermize2
- + 项目1
- + 项目2
+	Itermize2
+		+ 项目1
+		+ 项目2
+		
 ## Org Agenda基本操作
-C-c a 查看日程安排
+	
+	C-c a 查看日程安排
 
 ## 书签设置
 
