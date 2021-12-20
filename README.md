@@ -12,7 +12,7 @@
 
 ## 回到D:盘 Work_Space 目录下
 
-	点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置（需要联网）
+	点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置插件（需要联网）[这里使用了上海交通大学的镜像]
 
 ## 基本操作
 
@@ -32,7 +32,7 @@
 
 注释      M-;
 
-撤销 c-x u
+撤销 C-x u
 
 释放操作 c-g
 
@@ -58,6 +58,12 @@
 ## Org Agenda基本操作
 	
 	C-c a 查看日程安排
+## Orgmode 插入时间
+
+	C-c . 插入时间
+	C-c C-s schedule time
+	C-c C-d deadline
+	C-c @ 插入时间，但是不列入agenda
 
 ## 书签设置
 
