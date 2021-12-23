@@ -28,7 +28,9 @@
 
 调整大小  C-{  ( } )
 
-标记 mark  C-z
+标记 mark  C-z (Or C-@)
+
+Undo C-x u (c- -)
 
 注释      M-;
 
