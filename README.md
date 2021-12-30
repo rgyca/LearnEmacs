@@ -92,5 +92,5 @@ C-x r l（列表）
 邮件没有配置好，现在不用，现在不是特别需要。
 
 
-## Timestamp
-Last Modified: 2021-12-30 15:17:29 +0800
+## Timestamp (M-x gnu-insert-timestamp)
+Last Modified: 2021-12-30 15:19:09 +0800
