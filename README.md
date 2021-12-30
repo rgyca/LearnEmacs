@@ -28,25 +28,17 @@
 
 调整大小  C-{  ( } )
 
-<<<<<<< HEAD
 删除窗口  C-x k
 
-标记 mark  C-z
-=======
 标记 mark  C-z (Or C-@)
 
 Undo C-x u (C- -)    对 undo - redo tree 不了解
->>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
 
 注释      M-;
 
 撤销 C-x u
 
 释放操作 c-g
-
-<<<<<<< HEAD
-=======
-========================================
 
 缓冲区开头   M-< 
 缓冲区结尾   M-> 
@@ -82,8 +74,6 @@ C-x r m(设置)
 C-x r l（列表）
 列表中操作同Dired
 
->>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
-
 ## eaf
 
 在mac上eaf会出现python错误，退出现象，不知道什么原因
@@ -103,4 +93,4 @@ C-x r l（列表）
 
 
 ## Timestamp
-Last Modified: 2021-12-30 15:15:22 +0800
+Last Modified: 2021-12-30 15:17:29 +0800
