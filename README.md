@@ -1,10 +1,10 @@
 # emacs 安装过程
 
-这是一个安装在mac系统上的emacs，移植到windows上，在配置时，没有分情况考虑，所以做了相应的修改。
+	这是一个安装在mac系统上的emacs，移植到windows上，在配置时，没有分情况考虑，所以做了相应的修改。
 
 ## 把文件解压到D:盘中
 
-保证可以看到D:\Work_Space\emacs
+	保证可以看到D:\Work_Space\emacs
 
 ## 设置跟目录，过程
 
@@ -12,7 +12,7 @@
 
 ## 回到D:盘 Work_Space 目录下
 
-点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置（需要联网）
+	点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置插件（需要联网）[这里使用了上海交通大学的镜像]
 
 ## 基本操作
 
@@ -28,31 +28,78 @@
 
 调整大小  C-{  ( } )
 
+<<<<<<< HEAD
 删除窗口  C-x k
 
 标记 mark  C-z
+=======
+标记 mark  C-z (Or C-@)
+
+Undo C-x u (C- -)    对 undo - redo tree 不了解
+>>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
 
 注释      M-;
 
-撤销 c-x u
+撤销 C-x u
 
 释放操作 c-g
 
+<<<<<<< HEAD
+=======
+========================================
+
+缓冲区开头   M-< 
+缓冲区结尾   M-> 
+
+## Org 标识
+定格星号（*）加空格标识标题，一个星号标识一级标题，两个星号标识二级标题，以此类推。
+
+	Check box [/]
+		- [ ] check 1
+		- [ ] check 2
+
+	Itermize1
+		- 项目1
+		- 项目2
+ 
+	Itermize2
+		+ 项目1
+		+ 项目2
+		
+## Org Agenda基本操作
+	
+	C-c a 查看日程安排
+## Orgmode 插入时间
+
+	C-c . 插入时间
+	C-c C-s schedule time
+	C-c C-d deadline
+	C-c @ 插入时间，但是不列入agenda
+
+## 书签设置
+
+C-x r m(设置) 
+C-x r l（列表）
+列表中操作同Dired
+
+>>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
 
 ## eaf
 
-	在mac上eaf会出现python错误，退出现象，不知道什么原因
+在mac上eaf会出现python错误，退出现象，不知道什么原因
+
+目前只是好奇试了一下，以后再说。
 	
 ## org-roam
 
+在windows下，不能使用，需要Emacsql等，需要安装mingw。
 
-	在windows下，不能使用，需要Emacsql等，需要安装mingw。
-	
-	但是在MacOS下好使。
+但是在MacOS下好使。
 
 
 ## mu4e
 
+<<<<<<< HEAD
 	邮件没有配置好，现在不用
 		
 
@@ -60,3 +107,6 @@
 ## Timestamp
 Last Modified: 2021-12-30 14:03:09 +0800
 
+=======
+邮件没有配置好，现在不用，现在不是特别需要。
+>>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
