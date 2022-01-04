@@ -1,7 +1,11 @@
 #+TITLE:   Magit(Windows&MacOs)(Test)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
+<<<<<<< HEAD
+#+DATE:      Last Modified: 2021-12-16 16:01:19 +0800
+=======
 #+DATE:      Last Modified: 2021-12-17 08:29:32 +0800
+>>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -22,6 +26,8 @@
   
   This document was written using Org-mode. It works in github.
 
+  In windows, I install the githubdesktop and put the path of exe files into the emacs path config file. Now everything works well. In MacOs, git was installed default. 
+  
 * Add file
   C-x g  => s
 
