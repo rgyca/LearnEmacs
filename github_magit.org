@@ -2,9 +2,9 @@
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
 <<<<<<< HEAD
-#+DATE:      Last Modified: 2021-12-16 16:01:19 +0800
+#+DATE:      Last Modified: 2022-01-07 16:37:07 +0800
 =======
-#+DATE:      Last Modified: 2021-12-17 08:29:32 +0800
+#+DATE:      Last Modified: 2022-01-07 16:37:07 +0800
 >>>>>>> b88327a085ffad761a82435dda52056ec9f64f10
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
@@ -39,3 +39,6 @@
   
 * Pull
   F u
+
+* Log
+  In the stage file mode, you can view the branch log by pressing l.
