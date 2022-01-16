@@ -1,0 +1,131 @@
+* Basic Emacs Operation
+
+** 日常
+
+*** 移动
+   Ctrl - p Previous
+   Ctrl - n Next
+
+   Ctrl - a Start of line
+   Ctrl - e End of line
+
+   Ctrl - f Move forward
+   Ctrl - b Move backward
+
+   M-< 缓冲区开头
+   M-> 缓冲区结尾
+
+
+   Ctrl - k Delete to end of line
+
+  c-xe 插入日常事务
+  c-xg 插入当周计划事务
+  c-xt 日记快捷键 (Diary.org)
+  c-xl 日常工作列表快捷键 (gtd.org)
+  c-xd 研判 (Thought.org)
+  
+  c-x c-b (c-xb) ibuffer 选择
+  c-x c-r recent open file
+
+  c-c > 只读形式打开日历查看日期       
+  c-c < 快速插入当日历中当前日期(只能在前面的基础上) 格式： < 2021-03-06 Sat>
+  c-c ! 被flycheck占据，重新绑定为C-c @ 插入时间，但是不显示在agenda中  [2021-03-06 Sat]  
+  c-c c-y 计算时间差 
+
+  C-+   text-scale-increase
+  C--   text-scale-decrease
+  C-0   text-scale-adjust
+  
+  S-Up/Down 优先级调整
+
+  c-c c-x c-l org latex preview公式预览(c-c c-c取消)
+  c-c c-x c-v org latex preview图片预览（c-c c-x c-v取消）
+ 
+  c-c c-o c-b latex隐藏Macro, c-c c-o c-f
+
+** bookmark
+   C-x r m 设置
+   C-x r l 列表
+   C-x r b 移动
+
+** ORG快捷键
+  c-c c-w Refile
+  c-c c-t TODO等状态
+  
+  c-c c-d 插入选择时间 DeadLine
+  C-c C-s 它设定日期和时间 Scheduled
+  c-c . 插入时间 输入时间，可以用S+Up/Down/Left/Right对照日历调整日期    
+  c-c c-x c-i [c-c c-x c-o] 计算任务开始时间，结束时间，即任务花费的时间 (c-c c-y计算时间)
+
+  c-c c-q 增加tag
+  S-M-RET 创建一个TODO项目
+
+  c-c c-, 插入代码段，如   #+begin_src /  #+end_src
+
+  c-xl 工作列表 (目前不用)
+  c-f6 日记2
+
+  org 重复时间(TODO状态)，设定DEADLINE时，在时间上加 .+nq ，其中n为数字，q为 d-天，w-周，m-月，y-年
+
+  C-c [	将当前文件加入全局列表 ;在c-c a 的情况下，可以搜索其中的选项
+  C-c ]	将当前文件移除全局列表
+  C-c C-x <	锁定当前文件即在org agenda的buffer中只显示当前文件的日程（org-agenda-set-restriction-lock）
+  C-c C-x >	解锁(org-agenda-remove-restriction-lock)
+  可以打开speedbar ，在文件上使用< 和> 来锁定和解锁。
+  
+  Org 快捷键
+  C-c C-n 移动到下一个标题   C-c C-p 移动到上一个标题
+  C-c C-f 移动到和当前标题同等级的下一个标题 C-c C-b 移动到和当前标题同等级的上一个标题
+  C-c C-u 向上移动到更高一层的标题
+
+  M-<LEFT>    减少节点层级    M-<RIGHT>    增加节点层级    
+  M-<UP>    将节点向上移动    M-<DOWN>    将节点向下移动    
+
+  M-<ENTER>    增加一条同级节点    
+
+  <TAB>    对当前结点进行切换：收缩→查看所有子结点→查看所有内容    
+  <SHIFT>-<TAB>    对当前文件进行切换：收缩→查看所有子结点→查看所有内容    
+
+  C-c .    在光标位置插入时间    
+  C-c C-t    切换当前结点的状态 (TODO|DONE|)    
+  C-c [    将当前文件设置为事件视图的数据源   C-c ]    从事件视力的数据源中删除当前文件（数据源）    
+
+** Org roam
+   *dailies* 
+   C-c n d
+       n  添加琐事
+       d  查看琐事
+   C-c n i f 插入，打开node    
+
+** Python
+  c-xp 运行python
+  C-c C-c 运行buffer
+
+** 日历
+   Calendar支持生成LATEX代码。用F7打开日历
+　　t m 按月生成日历
+　　t M 按月生成一个美化的日历
+　　t d 按当天日期生成一个当天日历
+　　t w 1在一页上生成这个周的日历
+　　t w 2在两页上生成这个周的日历
+　　t w 3生成一个ISO-SYTLE风格的当前周日历
+　　t w 4生成一个从周一开始的当前周日历
+　　t y 生成当前年的日历
+
+** 其他常用
+   C-x C-b 在Ibuffer中列出打开的windows
+   c-x c-j 列出当前文件下目录 Dired
+   M-c M-o 切换窗口(F8)
+   (global-set-key [f1] 'find-file)        ;;F1 open
+   (global-set-key [f2] 'save-buffer)      ;;F2 save
+   (global-set-key [f3] 'eshell)           ;;F3 eshell
+   (global-set-key [f4] 'kill-this-buffer) ;;F4 kill buffer
+   (global-set-key [f5] 'undo)              ;; F5 undo
+   (global-set-key [(control f5)] 'redo)        ;; C-F5 redo
+   (global-set-key [M-S-f5] 'revert-buffer)     ;; M-S-F5 Revert
+   (global-set-key [f7] 'calendar)              ;; F7 calendar
+   (global-set-key [f8] 'other-window)          ;; F8 other-window
+   (global-set-key [f9] 'indent-region)         ;; F9 indent-region
+   (global-set-key [(control f9)] 'man-follow)  ;; C-F9 man-follow
+
+
