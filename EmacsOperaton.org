@@ -113,19 +113,20 @@
 　　t y 生成当前年的日历
 
 ** 其他常用
-   C-x C-b 在Ibuffer中列出打开的windows
-   c-x c-j 列出当前文件下目录 Dired
-   M-c M-o 切换窗口(F8)
-   (global-set-key [f1] 'find-file)        ;;F1 open
-   (global-set-key [f2] 'save-buffer)      ;;F2 save
-   (global-set-key [f3] 'eshell)           ;;F3 eshell
-   (global-set-key [f4] 'kill-this-buffer) ;;F4 kill buffer
-   (global-set-key [f5] 'undo)              ;; F5 undo
-   (global-set-key [(control f5)] 'redo)        ;; C-F5 redo
-   (global-set-key [M-S-f5] 'revert-buffer)     ;; M-S-F5 Revert
-   (global-set-key [f7] 'calendar)              ;; F7 calendar
-   (global-set-key [f8] 'other-window)          ;; F8 other-window
-   (global-set-key [f9] 'indent-region)         ;; F9 indent-region
-   (global-set-key [(control f9)] 'man-follow)  ;; C-F9 man-follow
+
+      C-x C-b 在Ibuffer中列出打开的windows
+      c-x c-j 列出当前文件下目录 Dired
+      M-c M-o 切换窗口(F8)
+      (global-set-key [f1] 'find-file)        ;;F1 open
+      (global-set-key [f2] 'save-buffer)      ;;F2 save
+      (global-set-key [f3] 'eshell)           ;;F3 eshell
+      (global-set-key [f4] 'kill-this-buffer) ;;F4 kill buffer
+      (global-set-key [f5] 'undo)              ;; F5 undo
+      (global-set-key [(control f5)] 'redo)        ;; C-F5 redo
+      (global-set-key [M-S-f5] 'revert-buffer)     ;; M-S-F5 Revert
+      (global-set-key [f7] 'calendar)              ;; F7 calendar
+      (global-set-key [f8] 'other-window)          ;; F8 other-window
+      (global-set-key [f9] 'indent-region)         ;; F9 indent-region
+      (global-set-key [(control f9)] 'man-follow)  ;; C-F9 man-follow
 
 
