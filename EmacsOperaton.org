@@ -15,7 +15,11 @@
    M-< 缓冲区开头
    M-> 缓冲区结尾
 
-
+   C-w 剪切
+   M-w 复制(Yank)
+   C-y 粘贴
+   M-y 列出剪贴板(yank)
+   
    Ctrl - k Delete to end of line
 
   c-xe 插入日常事务
