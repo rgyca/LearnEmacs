@@ -1,7 +1,7 @@
 #+TITLE:   Magit(Windows&MacOs)(Test)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2022-01-22 15:52:41 +0800
+#+DATE:      Last Modified: 2022-02-11 11:07:35 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -41,3 +41,5 @@
 
 * Different computer
   When Operation in different computer, pull first.
+
+  

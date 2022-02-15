@@ -31,11 +31,6 @@
   c-x c-b (c-xb) ibuffer 选择
   c-x c-r recent open file
 
-  c-c > 只读形式打开日历查看日期       
-  c-c < 快速插入当日历中当前日期(只能在前面的基础上) 格式： < 2021-03-06 Sat>
-  c-c ! 被flycheck占据，重新绑定为C-c @ 插入时间，但是不显示在agenda中  [2021-03-06 Sat]  
-  c-c c-y 计算时间差 
-
   C-+   text-scale-increase
   C--   text-scale-decrease
   C-0   text-scale-adjust
@@ -61,6 +56,14 @@
   c-c . 插入时间 输入时间，可以用S+Up/Down/Left/Right对照日历调整日期    
   c-c c-x c-i [c-c c-x c-o] 计算任务开始时间，结束时间，即任务花费的时间 (c-c c-y计算时间)
 
+
+  c-c > 只读形式打开日历查看日期       
+  c-c < 快速插入当日历中当前日期(只能在前面的基础上) 格式： < 2021-03-06 Sat>
+  c-c ! 被flycheck占据，重新绑定为C-c @ 插入时间，但是不显示在agenda中  [2021-03-06 Sat]  
+  c-c c-y 计算时间差 
+
+
+  
   c-c c-q 增加tag
   S-M-RET 创建一个TODO项目
 
@@ -107,14 +110,14 @@
 
 ** 日历
    Calendar支持生成LATEX代码。用F7打开日历
-　　t m 按月生成日历
-　　t M 按月生成一个美化的日历
-　　t d 按当天日期生成一个当天日历
-　　t w 1在一页上生成这个周的日历
-　　t w 2在两页上生成这个周的日历
-　　t w 3生成一个ISO-SYTLE风格的当前周日历
-　　t w 4生成一个从周一开始的当前周日历
-　　t y 生成当前年的日历
+   　　t m 按月生成日历
+   　　t M 按月生成一个美化的日历
+   　　t d 按当天日期生成一个当天日历
+   　　t w 1在一页上生成这个周的日历
+   　　t w 2在两页上生成这个周的日历
+   　　t w 3生成一个ISO-SYTLE风格的当前周日历
+   　　t w 4生成一个从周一开始的当前周日历
+      t y 生成当前年的日历
 
 ** 其他常用
 
@@ -132,5 +135,3 @@
       (global-set-key [f8] 'other-window)          ;; F8 other-window
       (global-set-key [f9] 'indent-region)         ;; F9 indent-region
       (global-set-key [(control f9)] 'man-follow)  ;; C-F9 man-follow
-
-
