@@ -12,7 +12,7 @@
 
 ## 回到D:盘 Work_Space 目录下
 
-	点击   D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置插件（需要联网）[这里使用了上海交通大学的镜像]
+	点击 D:\Work_Space\emacs\emacs-27\x86_64\bin\runemacs.exe，看看是否下载配置插件（需要联网）[这里使用了上海交通大学的镜像]
 
 ## 基本操作
 
@@ -120,4 +120,4 @@ C-x r l（列表）
 
 
 
-Last Modified: 2022-02-14 23:33:39 +0800
+Last Modified: 2022-02-18 13:35:09 +0800
