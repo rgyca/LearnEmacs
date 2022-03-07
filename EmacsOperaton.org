@@ -12,10 +12,7 @@
    Ctrl - f Move forward
    Ctrl - b Move backward
 
-   M-< 缓冲区开头
-   M-> 缓冲区结尾
-
-   C-w 剪切
+   相应的，还有M-(x)，可以实现整体的移动.
    M-w 复制(Yank)
    C-y 粘贴
    M-y 列出剪贴板(yank)
@@ -97,8 +94,11 @@
   C-c C-t    切换当前结点的状态 (TODO|DONE|)    
   C-c [    将当前文件设置为事件视图的数据源   C-c ]    从事件视力的数据源中删除当前文件（数据源）    
 
+
+  Org也可以采用maple-preview-mode进行预览，但是似乎没有markdown模式好用.
+  
 ** Org roam
-   *dailies* 
+   *dailies*
    C-c n d
        n  添加琐事
        d  查看琐事
