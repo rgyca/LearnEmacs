@@ -1,7 +1,7 @@
 #+TITLE:   Magit(Windows&MacOs)(Test)
 #+AUTHOR:    周见红(School of photoelectric engineering,CUST 130022)
 #+EMAIL:     zhoujhwd@163.com
-#+DATE:      Last Modified: 2022-02-18 13:38:52 +0800
+#+DATE:      Last Modified: 2022-02-18 13:42:51 +0800
 #+LATEX_CMD: xelatex
 #+DESCRIPTION:
 #+LaTeX_CLASS:  article
@@ -16,6 +16,8 @@
 #+LINK_HOME: 
 #+STARTUP: overview
 #+STARTUP: hidestars showall
+
+For remind myself.
 
 * Introducton
   
@@ -44,4 +46,4 @@
 
 ================================================
   
-  Last Modified: 2022-02-18 13:38:52 +0800
+  Last Modified: 2022-02-18 13:42:51 +0800
