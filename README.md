@@ -119,10 +119,6 @@ C-x r l（列表）
 
 # Timestamp (M-x gnu-insert-timestamp)
 
-通过 M-x 可以插入时间戳，是一个随修改而变更的时间搓！
+通过 M-x 可以插入时间戳，是一个随修改而变更的时间！
 
-Last Modified: 2022-03-08 08:11:13 +0800
-
-=======
-
-Last Modified: 2022-03-08 08:11:13 +0800
+Last Modified: 2022-03-08 12:34:57 +0800
